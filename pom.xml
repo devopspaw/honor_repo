@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>in.pawanit</artifactId>
+		<groupId>in.pawanit</groupId>
+		<version>1.0.1</version>
+	</parent>
+
+	<groupId>in.pawanit</groupId>
+	<artifactId>HDFC_customer_App-root</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<description>pawanit common modules. All pawanit modules have to link as dependency, the associated module.</description>
+
+	<url>www.pawanit.com</url>
+	<issueManagement>
+	</issueManagement>
+	<inceptionYear>2011</inceptionYear>
+
+	<mailingLists>
+	</mailingLists>
+	<developers>
+	</developers>
+	<contributors>
+	</contributors>
+	<licenses>
+	</licenses>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<url/>
+	</scm>
+	<organization>
+		<name>pawanit</name>
+		<url>www.pawanit.com</url>
+	</organization>
+
+
+	<properties>
+		<net.sf.itcb-version>0.0.1</net.sf.itcb-version>
+	</properties>
+
+<modules>  <module>HDFC_customer_App-business</module>
+    <module>HDFC_customer_App-business-impl</module>
+    <module>HDFC_customer_App-server</module>
+    <module>HDFC_customer_App-client</module>
+    <module>HDFC_customer_App-portlet</module>
+  </modules>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>HDFC_customer_App-root</artifactId>
+		<groupId>in.pawanit</groupId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<groupId>in.pawanit</groupId>
+	<artifactId>HDFC_customer_App-business-impl</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<description>This module is the common pawanit module that must depend all the pawanit business-impl modules.</description>
+	<!-- See the HDFC_customer_App-root module for further information : developers, scm... -->
+
+
+	<dependencies>
+		<dependency>
+			<groupId>net.sf.itcb.common</groupId>
+			<artifactId>common-business-impl</artifactId>
+			<version>${net.sf.itcb-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>in.pawanit</groupId>
+			<artifactId>HDFC_customer_App-business</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+	</dependencies>
+
+</project>
